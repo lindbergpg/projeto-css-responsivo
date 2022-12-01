@@ -7,6 +7,7 @@
 
 header {
     background-color: #3d6cd2;
+    box-shadow: 1px 1px 8px rgb(75, 75, 75);
 }
 
 header h1 {
@@ -61,15 +62,16 @@ header .container li a {
 
 .produtos li {
     margin-right: 10px;
-    text-align: center;
+    list-style-type: none;
 }
 
 .produtos img {
-    max-width: 240px;
+    max-width: 220px;
 }
 
 .produtos h3 {
-    margin: 18px 0;
+    font-size: 24px;
+    margin: 16px 0;
 }
 
 .produtos p {
@@ -86,8 +88,9 @@ header .container li a {
     border-radius: 5px;
     color: #fff;
     margin-bottom: 16px;
-    width: 240px;
+    width: 220px;
     cursor: pointer;
+    box-shadow: 1px 1px 4px rgb(75, 75, 75);
 }
 
 .produtos button:hover {
