@@ -96,3 +96,77 @@ header .container li a {
 .produtos button:hover {
     background-color: #749cd4;
 }
+
+@media screen and (max-width: 767px) {
+    .sobre {
+        display: block;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .sobre img {
+        max-width: 100%;
+    }
+
+    .sobre h2 {
+        margin-top: 10px;
+    }
+
+    .sobre p {
+        max-width: 100%;
+    }
+
+    header .container li {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .produtos ul {
+        display: block;
+        max-width: 100%;
+    }
+
+    .produtos li {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #3d6cd2;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        max-width: 100%;
+    }
+
+    .sobre h2 {
+        margin-top: 10px;
+    }
+
+    .sobre p {
+        max-width: 100%;
+    }
+
+    .produtos ul {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .produtos li {
+        margin-right: 22px;
+    }
+
+    .produtos img {
+        max-width: 320px;
+    }
+}
